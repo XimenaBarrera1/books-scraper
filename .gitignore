@@ -1,0 +1,20 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Datos generados (no queremos subir el CSV)
+data/*.csv
+
+# Variables de entorno
+.env
+
+# IDE
+.vscode/
+.idea/
